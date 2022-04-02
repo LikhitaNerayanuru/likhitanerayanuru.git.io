@@ -7,6 +7,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
+
 h1,
 h2, 
 h3, 
@@ -27,6 +30,23 @@ a:focus {
     color: #EF233C;
     outline: none;
     text-decoration: none;
+}
+
+
+.column1{
+	float:left;
+	width:33.33%;
+	padding:5px;
+}
+
+.row1::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+h1{
+	transform-origin:40%,30%;
 }
 
 .btn:focus,
